@@ -37,7 +37,7 @@
                 <div class="inner-container">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="images/logo-v2.png" alt=""></a></div>
+                        <div class="logo"><a href="index.php"><img src="images/logo-v2.png" alt=""></a></div>
                     </div>
                     <div class="right-column">
                         <div class="contact-info">
@@ -71,7 +71,7 @@
                     <div class="nav-outer">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="images/logo-v2.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="images/logo-v2.png" alt=""></a></div>
                         </div>
                         <!--Mobile Navigation Toggler-->
                         <div class="mobile-nav-toggler"><img src="images/icons/icon-bar-4.png" alt=""></div>
@@ -80,20 +80,20 @@
                         <nav class="main-menu navbar-expand-md navbar-light">
                             <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                 <ul class="navigation">
-                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="index.php">Home</a></li>
                                     <li class="dropdown"><a href="#">Pages</a>
                                         <ul>
-                                            <li><a href="about.html">About Us</a></li>
-                                            <li><a href="story.html">Our Story</a></li>
-                                            <li><a href="team-3.html">Our Leaders</a></li>
-                                            <li><a href="testimonial-2.html">Testimonials</a></li>
-                                            <li><a href="faq.html">FAQ’s</a></li>
+                                            <li><a href="about.php">About Us</a></li>
+                                            <li><a href="story.php">Our Story</a></li>
+                                            <li><a href="team-3.php">Our Leaders</a></li>
+                                            <li><a href="testimonial-2.php">Testimonials</a></li>
+                                            <li><a href="faq.php">FAQ’s</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="service.html">Products</a></li>
-                                    <li><a href="blog.html">Blog</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="gallery.html">Gallery</a></li>
+                                    <li><a href="service.php">Products</a></li>
+                                    <li><a href="blog.php">Blog</a></li>
+                                    <li><a href="contact.php">Contact</a></li>
+                                    <li><a href="gallery.php">Gallery</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -137,7 +137,7 @@
             <div class="close-btn"><span class="icon flaticon-remove"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="images/logo-v2.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.php"><img src="images/logo-v2.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
                 <!--Social Links-->
                 <div class="social-links">
@@ -165,24 +165,24 @@
             <div class="content-wrapper">
                 <div class="hidden-sidebar-close"><span class="flaticon-close"></span></div>
                 <div class="text-widget sidebar-widget">
-                    <div class="logo"><a href="index.html"><img src="images/logo-v2.png" alt=""></a></div>
+                    <div class="logo"><a href="index.php"><img src="images/logo-v2.png" alt=""></a></div>
                     <div class="text">Demoralized by the charms of pleasure of the moment so blinded by desire that they cannot foresees the pain.</div>
                 </div>
                 <div class="new-widget-two widget">
                     <h4 class="widget_title">News & Updates</h4>
                     <div class="content-widget">
                         <article class="post">
-                            <figure class="post-thumb"><a href="blog-details.html"><img src="images/resource/image-85.jpg" alt=""></a></figure>
+                            <figure class="post-thumb"><a href="blog-details.php"><img src="images/resource/image-85.jpg" alt=""></a></figure>
                             <div class="content">
                                 <div class="post-info"><i class="far fa-clock"></i> Oct 15, 2020</div>
-                                <h5><a href="blog-details.html">Gas shield solution developed for the aerospace</a></h5>
+                                <h5><a href="blog-details.php">Gas shield solution developed for the aerospace</a></h5>
                             </div>
                         </article>
                         <article class="post">
-                            <figure class="post-thumb"><a href="blog-details.html"><img src="images/resource/image-86.jpg" alt=""></a></figure>
+                            <figure class="post-thumb"><a href="blog-details.php"><img src="images/resource/image-86.jpg" alt=""></a></figure>
                             <div class="content">
                                 <div class="post-info"><i class="far fa-clock"></i> Sep 26, 2020</div>
-                                <h5><a href="blog-details.html">Building back a sustainable  manufacturing sector</a></h5>
+                                <h5><a href="blog-details.php">Building back a sustainable  manufacturing sector</a></h5>
                             </div>
                         </article>
                     </div>
@@ -205,7 +205,7 @@
         <div class="popup-inner">
             <div class="overlay-layer"></div>
             <div class="search-form">
-                <form method="post" action="index.html">
+                <form method="post" action="index.php">
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
@@ -229,7 +229,7 @@
                                 <h1><span>Passion </span><br> for industrial</h1>
                                 <div class="text">It is a long established fact that a readers will be distracted by readable <br> content of a page when looking at its layout.</div>
                                 <div class="link-box">
-                                    <a href="about.html" class="theme-btn style-four"><span>Read More</span></a>
+                                    <a href="about.php" class="theme-btn style-four"><span>Read More</span></a>
                                 </div>
                             </div>
                         </div>
@@ -243,7 +243,7 @@
                                 <h1><span>Superior & </span><br> Quality Results</h1>
                                 <div class="text">Denouncing pleasure and praising pain was born and we will give <br> you a account of the system, and expound the actual.</div>
                                 <div class="link-box">
-                                    <a href="about.html" class="theme-btn style-four"><span>Read More</span></a>
+                                    <a href="about.php" class="theme-btn style-four"><span>Read More</span></a>
                                 </div>
                             </div>                               
                         </div>
@@ -257,7 +257,7 @@
                                 <h1><span>Fiber </span><br> Laser Cutting</h1>
                                 <div class="text">It is a long established fact that a readers will be distracted by read <br>  able content of a page when looking at its layout.</div>
                                 <div class="link-box">
-                                    <a href="about.html" class="theme-btn style-four"><span>Read More</span></a>
+                                    <a href="about.php" class="theme-btn style-four"><span>Read More</span></a>
                                 </div>
                             </div>                      
                         </div>
@@ -316,7 +316,7 @@
                         </div>
                     </div>
                     <div class="link-btn">
-                        <a href="about.html" class="theme-btn style-six"><span>Read More</span></a>
+                        <a href="about.php" class="theme-btn style-six"><span>Read More</span></a>
                         <a href="#" class="theme-btn style-seven"><i class="flaticon-download-1"></i><span> Our Report</span></a>
                     </div>
                 </div>
@@ -470,7 +470,7 @@
                     </div>
                     <div class="col-lg-5">
                         <div class="link-btn">
-                            <a href="contact.html" class="theme-btn style-five"><span>Get a Quote</span></a>
+                            <a href="contact.php" class="theme-btn style-five"><span>Get a Quote</span></a>
                             <a href="tel:08963648078" class="theme-btn style-three"><span><i class="flaticon-phone-call"></i> +089 636 - 48018</span></a>
                         </div>
                     </div>
@@ -569,7 +569,7 @@
                         </div>
                     </div>
                     <div class="link-btn">
-                        <a href="about.html" class="theme-btn style-six"><span>Read More</span></a>
+                        <a href="about.php" class="theme-btn style-six"><span>Read More</span></a>
                         <a href="#" class="theme-btn style-seven"><i class="flaticon-download-1"></i><span> Our Report</span></a>
                     </div>
                 </div>
@@ -854,7 +854,7 @@
                                     <div class="category"># Welding</div>
                                     <h4>Pipeline Welding</h4>
                                 </div>
-                                <div class="link-btn"><a href="project-details.html"><span class="flaticon-arrow-1"></span></a></div>
+                                <div class="link-btn"><a href="project-details.php"><span class="flaticon-arrow-1"></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -869,7 +869,7 @@
                                     <div class="category"># Welding</div>
                                     <h4>Pipeline Welding</h4>
                                 </div>
-                                <div class="link-btn"><a href="project-details.html"><span class="flaticon-arrow-1"></span></a></div>
+                                <div class="link-btn"><a href="project-details.php"><span class="flaticon-arrow-1"></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -884,7 +884,7 @@
                                     <div class="category"># Welding</div>
                                     <h4>Pipeline Welding</h4>
                                 </div>
-                                <div class="link-btn"><a href="project-details.html"><span class="flaticon-arrow-1"></span></a></div>
+                                <div class="link-btn"><a href="project-details.php"><span class="flaticon-arrow-1"></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -899,7 +899,7 @@
                                     <div class="category"># Welding</div>
                                     <h4>Pipeline Welding</h4>
                                 </div>
-                                <div class="link-btn"><a href="project-details.html"><span class="flaticon-arrow-1"></span></a></div>
+                                <div class="link-btn"><a href="project-details.php"><span class="flaticon-arrow-1"></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -914,7 +914,7 @@
                                     <div class="category"># Welding</div>
                                     <h4>Pipeline Welding</h4>
                                 </div>
-                                <div class="link-btn"><a href="project-details.html"><span class="flaticon-arrow-1"></span></a></div>
+                                <div class="link-btn"><a href="project-details.php"><span class="flaticon-arrow-1"></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -929,7 +929,7 @@
                                     <div class="category"># Welding</div>
                                     <h4>Pipeline Welding</h4>
                                 </div>
-                                <div class="link-btn"><a href="project-details.html"><span class="flaticon-arrow-1"></span></a></div>
+                                <div class="link-btn"><a href="project-details.php"><span class="flaticon-arrow-1"></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -944,7 +944,7 @@
                                     <div class="category"># Welding</div>
                                     <h4>Pipeline Welding</h4>
                                 </div>
-                                <div class="link-btn"><a href="project-details.html"><span class="flaticon-arrow-1"></span></a></div>
+                                <div class="link-btn"><a href="project-details.php"><span class="flaticon-arrow-1"></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -959,7 +959,7 @@
                                     <div class="category"># Welding</div>
                                     <h4>Pipeline Welding</h4>
                                 </div>
-                                <div class="link-btn"><a href="project-details.html"><span class="flaticon-arrow-1"></span></a></div>
+                                <div class="link-btn"><a href="project-details.php"><span class="flaticon-arrow-1"></span></a></div>
                             </div>
                         </div>
                     </div>
@@ -1252,12 +1252,12 @@
                                 <img src="images/resource/image-31.jpg" alt="">
                                 <div class="overlay-two">
                                     <a href="images/resource/image-31.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
-                                    <a href="blog-details.html"><span class="flaticon-link"></span></a>
+                                    <a href="blog-details.php"><span class="flaticon-link"></span></a>
                                 </div>
                             </div>
                             <div class="lower-content">
                                 <div class="category">[<i class="fas fa-folder"></i> Manufacturing ]</div>
-                                <h3><a href="blog-details.html">Gas shield solution developed <br> for the aerospace</a></h3>
+                                <h3><a href="blog-details.php">Gas shield solution developed <br> for the aerospace</a></h3>
                                 <ul class="post-meta">
                                     <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
                                     <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
@@ -1281,12 +1281,12 @@
                                 <img src="images/resource/image-32.jpg" alt="">
                                 <div class="overlay-two">
                                     <a href="images/resource/image-32.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
-                                    <a href="blog-details.html"><span class="flaticon-link"></span></a>
+                                    <a href="blog-details.php"><span class="flaticon-link"></span></a>
                                 </div>
                             </div>
                             <div class="lower-content">
                                 <div class="category">[<i class="fas fa-folder"></i> Smart Factory ]</div>
-                                <h3><a href="blog-details.html">Digital manufacturing week 2020 – leading the way</a></h3>
+                                <h3><a href="blog-details.php">Digital manufacturing week 2020 – leading the way</a></h3>
                                 <ul class="post-meta">
                                     <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
                                     <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
@@ -1310,12 +1310,12 @@
                                 <img src="images/resource/image-33.jpg" alt="">
                                 <div class="overlay-two">
                                     <a href="images/resource/image-33.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
-                                    <a href="blog-details.html"><span class="flaticon-link"></span></a>
+                                    <a href="blog-details.php"><span class="flaticon-link"></span></a>
                                 </div>
                             </div>
                             <div class="lower-content">
                                 <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
-                                <h3><a href="blog-details.html">Building back a sustainable  manufacturing sector</a></h3>
+                                <h3><a href="blog-details.php">Building back a sustainable  manufacturing sector</a></h3>
                                 <ul class="post-meta">
                                     <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
                                     <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
@@ -1339,12 +1339,12 @@
                                 <img src="images/resource/image-31.jpg" alt="">
                                 <div class="overlay-two">
                                     <a href="images/resource/image-31.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
-                                    <a href="blog-details.html"><span class="flaticon-link"></span></a>
+                                    <a href="blog-details.php"><span class="flaticon-link"></span></a>
                                 </div>
                             </div>
                             <div class="lower-content">
                                 <div class="category">[<i class="fas fa-folder"></i> Manufacturing ]</div>
-                                <h3><a href="blog-details.html">Gas shield solution developed <br> for the aerospace</a></h3>
+                                <h3><a href="blog-details.php">Gas shield solution developed <br> for the aerospace</a></h3>
                                 <ul class="post-meta">
                                     <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
                                     <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
@@ -1368,12 +1368,12 @@
                                 <img src="images/resource/image-32.jpg" alt="">
                                 <div class="overlay-two">
                                     <a href="images/resource/image-32.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
-                                    <a href="blog-details.html"><span class="flaticon-link"></span></a>
+                                    <a href="blog-details.php"><span class="flaticon-link"></span></a>
                                 </div>
                             </div>
                             <div class="lower-content">
                                 <div class="category">[<i class="fas fa-folder"></i> Smart Factory ]</div>
-                                <h3><a href="blog-details.html">Digital manufacturing week 2020 – leading the way</a></h3>
+                                <h3><a href="blog-details.php">Digital manufacturing week 2020 – leading the way</a></h3>
                                 <ul class="post-meta">
                                     <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
                                     <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
@@ -1397,12 +1397,12 @@
                                 <img src="images/resource/image-33.jpg" alt="">
                                 <div class="overlay-two">
                                     <a href="images/resource/image-33.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
-                                    <a href="blog-details.html"><span class="flaticon-link"></span></a>
+                                    <a href="blog-details.php"><span class="flaticon-link"></span></a>
                                 </div>
                             </div>
                             <div class="lower-content">
                                 <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
-                                <h3><a href="blog-details.html">Building back a sustainable  manufacturing sector</a></h3>
+                                <h3><a href="blog-details.php">Building back a sustainable  manufacturing sector</a></h3>
                                 <ul class="post-meta">
                                     <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
                                     <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
@@ -1469,20 +1469,20 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <ul class="list">
-                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="about.php">About Us</a></li>
                                             <li><a href="#">Services</a></li>
                                             <li><a href="#">Industries</a></li>
-                                            <li><a href="blog.html">News</a></li>
+                                            <li><a href="blog.php">News</a></li>
                                             <li><a href="#">Pricing</a></li>
                                             <li><a href="#">Projects</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
                                         <ul class="list">
-                                            <li><a href="about.html">Industries</a></li>
+                                            <li><a href="about.php">Industries</a></li>
                                             <li><a href="#">Features</a></li>
                                             <li><a href="#">Process</a></li>
-                                            <li><a href="blog.html">Feedback</a></li>
+                                            <li><a href="blog.php">Feedback</a></li>
                                             <li><a href="#">FAQ's</a></li>
                                             <li><a href="#">Contact</a></li>
                                         </ul>
@@ -1497,12 +1497,12 @@
                             <div class="single-post">
                                 <div class="image"><img src="images/resource/image-34.jpg" alt=""></div>
                                 <div class="date"><i class="far fa-clock"></i>Oct 15, 2020</div>
-                                <h4><a href="blog-details.html">Gas shield solution developed <br>  for the aerospace</a></h4>
+                                <h4><a href="blog-details.php">Gas shield solution developed <br>  for the aerospace</a></h4>
                             </div>
                             <div class="single-post">
                                 <div class="image"><img src="images/resource/image-35.jpg" alt=""></div>
                                 <div class="date"><i class="far fa-clock"></i>Oct 16, 2020</div>
-                                <h4><a href="blog-details.html">Building back a sustainable <br> manufacturing sector</a></h4>
+                                <h4><a href="blog-details.php">Building back a sustainable <br> manufacturing sector</a></h4>
                             </div>
                         </div>
                     </div>
@@ -1517,7 +1517,7 @@
             <div class="wrapper-box">
                 <div class="row m-0 align-items-center justify-content-between">
                     <div class="left-side">
-                        <div class="logo"><a href="index.html"><img src="images/logo-v2.png" alt=""></a></div>
+                        <div class="logo"><a href="index.php"><img src="images/logo-v2.png" alt=""></a></div>
                         <div class="copyright-text">Copyright © 2021 <a href="#"> Indasto.</a> All Rights Reserved.</div>                        
                     </div>                    
                     <ul class="social-links">

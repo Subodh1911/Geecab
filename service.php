@@ -71,7 +71,7 @@
                 <div class="inner-container">
                     <!--Logo-->
                     <div class="logo-box">
-                        <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                        <div class="logo"><a href="index.php"><img src="images/logo.png" alt=""></a></div>
                     </div>
                     <div class="right-column">
                         <!--Nav Box-->
@@ -83,20 +83,20 @@
                             <nav class="main-menu navbar-expand-md navbar-light">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation">
-                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="index.php">Home</a></li>
                                         <li class="dropdown"><a href="#">Pages</a>
                                             <ul>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="story.html">Our Story</a></li>
-                                                <li><a href="team-3.html">Our Leaders</a></li>
-                                                <li><a href="testimonial-2.html">Testimonials</a></li>
-                                                <li><a href="faq.html">FAQ’s</a></li>
+                                                <li><a href="about.php">About Us</a></li>
+                                                <li><a href="story.php">Our Story</a></li>
+                                                <li><a href="team-3.php">Our Leaders</a></li>
+                                                <li><a href="testimonial-2.php">Testimonials</a></li>
+                                                <li><a href="faq.php">FAQ’s</a></li>
                                             </ul>
                                         </li>
-                                        <li><a href="service.html">Products</a></li>
-                                        <li><a href="blog.html">Blog</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-                                        <li><a href="gallery.html">Gallery</a></li>
+                                        <li><a href="service.php">Products</a></li>
+                                        <li><a href="blog.php">Blog</a></li>
+                                        <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="gallery.php">Gallery</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -118,7 +118,7 @@
                     <div class="inner-container">
                         <!--Logo-->
                         <div class="logo-box">
-                            <div class="logo"><a href="index.html"><img src="images/logo.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="images/logo.png" alt=""></a></div>
                         </div>
                         <div class="right-column">
                             <!--Nav Box-->
@@ -147,7 +147,7 @@
             <div class="close-btn"><span class="icon flaticon-remove"></span></div>
             
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="images/logo-2.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.php"><img src="images/logo-2.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
 				<!--Social Links-->
 				<div class="social-links">
@@ -175,24 +175,24 @@
             <div class="content-wrapper">
                 <div class="hidden-sidebar-close"><span class="flaticon-close"></span></div>
                 <div class="text-widget sidebar-widget">
-                    <div class="logo"><a href="index.html"><img src="images/logo-2.png" alt=""></a></div>
+                    <div class="logo"><a href="index.php"><img src="images/logo-2.png" alt=""></a></div>
                     <div class="text">Demoralized by the charms of pleasure of the moment so blinded by desire that they cannot foresees the pain.</div>
                 </div>
                 <div class="new-widget-two widget">
                     <h4 class="widget_title">News & Updates</h4>
                     <div class="content-widget">
                         <article class="post">
-                            <figure class="post-thumb"><a href="blog-details.html"><img src="images/resource/image-85.jpg" alt=""></a></figure>
+                            <figure class="post-thumb"><a href="blog-details.php"><img src="images/resource/image-85.jpg" alt=""></a></figure>
                             <div class="content">
                                 <div class="post-info"><i class="far fa-clock"></i> Oct 15, 2020</div>
-                                <h5><a href="blog-details.html">Gas shield solution developed for the aerospace</a></h5>
+                                <h5><a href="blog-details.php">Gas shield solution developed for the aerospace</a></h5>
                             </div>
                         </article>
                         <article class="post">
-                            <figure class="post-thumb"><a href="blog-details.html"><img src="images/resource/image-86.jpg" alt=""></a></figure>
+                            <figure class="post-thumb"><a href="blog-details.php"><img src="images/resource/image-86.jpg" alt=""></a></figure>
                             <div class="content">
                                 <div class="post-info"><i class="far fa-clock"></i> Sep 26, 2020</div>
-                                <h5><a href="blog-details.html">Building back a sustainable  manufacturing sector</a></h5>
+                                <h5><a href="blog-details.php">Building back a sustainable  manufacturing sector</a></h5>
                             </div>
                         </article>
                     </div>
@@ -215,7 +215,7 @@
         <div class="popup-inner">
             <div class="overlay-layer"></div>
             <div class="search-form">
-                <form method="post" action="index.html">
+                <form method="post" action="index.php">
                     <div class="form-group">
                         <fieldset>
                             <input type="search" class="form-control" name="search-input" value="" placeholder="Search Here" required >
@@ -236,7 +236,7 @@
                         <h1>Our Products</h1>
                     </div>
                     <ul class="bread-crumb style-two">
-                        <li><a href="index.html">Home </a></li>
+                        <li><a href="index.php">Home </a></li>
                         <li class="active">Products</li>
                     </ul>
                 </div>
@@ -258,7 +258,7 @@
                             </div>
                             <h4>Construction</h4>
                             <div class="text">Explain too you how all this  mistaken idea denounce pleasure give you complete.</div>
-                            <div class="link"><a href="oil.html" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
+                            <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
                         </div>
                     </div>
                 </div>
@@ -272,7 +272,7 @@
                             </div>
                             <h4>Oil & Gas Energy</h4>
                             <div class="text">Indignation & dislike men who <br>  are so beguiled demoralied by the charms of pleasure.</div>
-                            <div class="link"><a href="oil.html" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
+                            <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
                         </div>
                     </div>
                 </div>
@@ -286,7 +286,7 @@
                             </div>
                             <h4>Power & Energy</h4>
                             <div class="text">These cases are perfectly <br> simple and easy to distinguish in <br> free when our power. </div>
-                            <div class="link"><a href="oil.html" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
+                            <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
                         </div>
                     </div>
                 </div>
@@ -300,7 +300,7 @@
                             </div>
                             <h4>Pharma Research</h4>
                             <div class="text">Explain too you how all this  mistaken idea denounce pleasure give you complete.</div>
-                            <div class="link"><a href="oil.html" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
+                            <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
                         </div>
                     </div>
                 </div>
@@ -316,7 +316,7 @@
                             <div class="text">Explain too you how all this <br>
                                 mistaken idea denounce pleasure <br>
                                 give you complete.</div>
-                            <div class="link"><a href="oil.html" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
+                            <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
                         </div>
                     </div>
                 </div>
@@ -332,7 +332,7 @@
                             <div class="text">Indignation & dislike men who <br>
                                 are so beguiled demoralied by the <br>
                                 charms of pleasure. </div>
-                            <div class="link"><a href="oil.html" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
+                            <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
                         </div>
                     </div>
                 </div>
@@ -364,7 +364,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="widget about-widget">
-                            <div class="logo"><a href="index.html"><img src="images/logo-2.png" alt=""></a></div>
+                            <div class="logo"><a href="index.php"><img src="images/logo-2.png" alt=""></a></div>
                             <div class="text">Indasto is your one-call solution <br>  for a wide range of manufactory <br> and industry solutions.</div>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -381,19 +381,19 @@
                                 <div class="row">
                                     <div class="col-md-6">
                                         <ul class="list">
-                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="about.php">About Us</a></li>
                                             <li><a href="#">Services</a></li>
                                             <li><a href="#">Industries</a></li>
-                                            <li><a href="blog.html">News</a></li>
+                                            <li><a href="blog.php">News</a></li>
                                             <li><a href="#">Projects</a></li>
                                         </ul>
                                     </div>
                                     <div class="col-md-6">
                                         <ul class="list">
-                                            <li><a href="about.html">Industries</a></li>
+                                            <li><a href="about.php">Industries</a></li>
                                             <li><a href="#">Features</a></li>
                                             <li><a href="#">Process</a></li>
-                                            <li><a href="blog.html">Feedback</a></li>
+                                            <li><a href="blog.php">Feedback</a></li>
                                             <li><a href="#">Contact</a></li>
                                         </ul>
                                     </div>
