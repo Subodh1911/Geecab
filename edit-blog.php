@@ -244,6 +244,109 @@
         </div>
     </section>
 
+    <!-- Backend -->
+    <section class="blog-page pad-tb pt40">
+        <div class="container">
+        <!-- Edit Blog -->
+        <form action="<?php $_SERVER['PHP_SELF'] ?>" method="POST" autocomplete="off">
+
+        <h3 style="">Edit Blogs</h3>
+        <br>
+
+        <input type="text" name="ID" maxlenght="30" placeholder="Blog ID" class="border border-dark"><br><br>
+        <input style="background : blue; font-size: 100%;" type="submit" class="button"
+            name="showbtn" placeholder="submit">
+        </form>
+        <?php 
+        if(isset($_POST['showbtn'])) {
+            $conn = mysqli_connect("localhost","root","","geecab") or die("Connection Failed");
+            $name = $_POST['ID'];
+            $sql = "select * from blog where blogID='{$name}'; ";
+            $result = mysqli_query($conn, $sql) or die("Query Failed");
+            if(mysqli_num_rows($result)>0) {
+                while($row=mysqli_fetch_assoc($result)) {
+        ?>
+        <form action="<?php $_SERVER['PHP_SELF'] ?>" method="POST" autocomplete = "off">
+        <br>
+        <input type="text" name="ID" placeholder="Blog ID" value="<?php echo $row['blogID'] ?>" class="border border-dark"><br><br>
+        <textarea type="text" name="heading" placeholder="Heading" value="" class="border border-dark" cols="80" rows="1"><?php echo $row['heading'] ?></textarea><br><br>
+        <input type="text" name="category" placeholder="Category" value="<?php echo $row['category'] ?>" class="border border-dark"><br><br>
+        <textarea type="text" name="news" placeholder="Detailed News" value="" class="border border-dark" cols="80" rows="15"><?php echo $row['DetailedNews'] ?></textarea><br><br>
+        <input type="text" name="image" placeholder="Image Path" value="<?php echo $row['image'] ?>"class="border border-dark"><br><br>
+
+        <input style="background : blue; font-size: 100%;" type="submit" class="button"
+            name="submit" placeholder="submit">
+            </form>
+        <br>
+            <?php   }}}  ?>
+
+
+            <?php
+            if(isset($_POST['submit'])) {
+                $conn = mysqli_connect("localhost","root","","geecab") or die("Connection Failed");
+                $ID = $_POST['ID'];
+                $heading = $_POST['heading'];
+                $category = $_POST['category'];
+                $news = $_POST['news'];
+                $image = $_POST['image'];
+                $sql = "UPDATE blog SET category='{$category}',heading='{$heading}',DetailedNews='{$news}', image='{$image}' WHERE blogID='{$ID}';";
+                $result = mysqli_query($conn, $sql) or die("Query Failed");
+            }
+            ?>
+
+            <hr>
+        <!-- Add blog -->
+        <br><br>
+        <h3>Add Blog</h3><br>
+        <form action="<?php $_SERVER['PHP_SELF'] ?>" method="POST" autocomplete = "off">
+        <textarea type="text" name="heading" placeholder="Heading" value="" class="border border-dark" cols="80" rows="1"></textarea><br><br>
+        <input type="text" name="category" placeholder="Category" value="" class="border border-dark"><br><br>
+        <textarea type="text" name="news" placeholder="Detailed News" value="" class="border border-dark" cols="80" rows="15"></textarea><br><br>
+        <input type="text" name="image" placeholder="Image Path" value=""class="border border-dark"><br><br>
+        <input type="text" name="author" placeholder="Posting by" value=""class="border border-dark"><br><br>
+
+        <input style="background : blue; font-size: 100%;" type="submit" class="button"
+            name="addBtn" placeholder="submit">
+        </form>
+        <br>
+
+        <?php
+            $flag = isset($_POST['addBtn']);
+            if($flag) {
+                $conn = mysqli_connect("localhost","root","","geecab") or die("Connection Failed");
+                $heading = $_POST['heading'];
+                $category = $_POST['category'];
+                $news = $_POST['news'];
+                $image = $_POST['image'];
+                $author = $_POST['author'];
+                $sql = "INSERT INTO `blog`(`heading`, `category`, `DetailedNews`, `image`, `PostedBy`) VALUES ('{$heading}','{$category}','{$news}','{$image}','{$author}');";
+                $result = mysqli_query($conn, $sql) or die("Query Failed");
+                $flag = 0;
+            }
+        ?>
+        <hr>
+        <!-- Delete Blog -->
+        <form action="<?php $_SERVER['PHP_SELF'] ?>" method="POST" autocomplete="off">
+
+        <h3 style="">Delete Blog</h3>
+        <br>
+        <input type="text" name="ID" maxlenght="30" placeholder="Blog ID" class="border border-dark"><br><br>
+        <input style="background : blue; font-size: 100%;" type="submit" class="button"
+            name="deleteBtn" placeholder="submit">
+        </form>
+        <?php 
+        if(isset($_POST['deleteBtn'])) {
+            $conn = mysqli_connect("localhost","root","","geecab") or die("Connection Failed");
+            $name = $_POST['ID'];
+            $sql = "delete from blog where blogID='{$name}'; ";
+            $result = mysqli_query($conn, $sql) or die("Query Failed");
+            $_POST['deleteBtn'] = 0;
+        }
+        ?>
+
+        </div>
+    </section>
+
     <!-- News Section -->
     <section class="news-section default-style">
         <div class="auto-container">
@@ -272,6 +375,7 @@
                             <h3><a href="blog-details.php"><?php echo $row['heading']?></a></h3>
                             <ul class="post-meta">
                                 <li><a href="#"><i class="far fa-clock"></i><?php echo $row['Date']?></a></li>
+                                <li><a href="#"><i class="far fa-id-card"></i>Id : <?php echo $row['blogID']?></a></li>
                             </ul>
                             <div class="post-share-btn">
                                 <div class="social-links-wrapper">
@@ -287,158 +391,9 @@
                     </div>
                 </div>
                 <?php 
-                }
-                mysqli_close($conn); 
+                } 
+                mysqli_close($conn);
                 ?>
-                <!-- <div class="col-lg-4 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="images/blog/image-15.jpg" alt="">
-                            <div class="overlay-two">
-                                <a href="images/blog/image-15.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
-                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <div class="category">[<i class="fas fa-folder"></i> Smart Factory ]</div>
-                            <h3><a href="blog-details.php">Digital manufacturing week
-                                2020 – leading the way</a></h3>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
-                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
-                            </ul>
-                            <div class="post-share-btn">
-                                <div class="social-links-wrapper">
-                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
-                                    <ul class="social-links">
-                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>                                
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="images/blog/image-16.jpg" alt="">
-                            <div class="overlay-two">
-                                <a href="images/blog/image-16.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
-                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
-                            <h3><a href="blog-details.php">Building back a sustainable
-                                manufacturing sector</a></h3>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
-                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
-                            </ul>
-                            <div class="post-share-btn">
-                                <div class="social-links-wrapper">
-                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
-                                    <ul class="social-links">
-                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>                                
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="images/blog/image-17.jpg" alt="">
-                            <div class="overlay-two">
-                                <a href="images/blog/image-17.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
-                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
-                            <h3><a href="blog-details.php">Building back a sustainable
-                                manufacturing sector</a></h3>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
-                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
-                            </ul>
-                            <div class="post-share-btn">
-                                <div class="social-links-wrapper">
-                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
-                                    <ul class="social-links">
-                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>                                
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="images/blog/image-18.jpg" alt="">
-                            <div class="overlay-two">
-                                <a href="images/blog/image-18.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
-                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <div class="category">[<i class="fas fa-folder"></i> Manufacturing ]</div>
-                            <h3><a href="blog-details.php">Gas shield solution developed <br> for the aerospace</a></h3>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
-                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
-                            </ul>
-                            <div class="post-share-btn">
-                                <div class="social-links-wrapper">
-                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
-                                    <ul class="social-links">
-                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>                                
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 news-block">
-                    <div class="inner-box">
-                        <div class="image">
-                            <img src="images/blog/image-19.jpg" alt="">
-                            <div class="overlay-two">
-                                <a href="images/blog/image-19.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
-                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
-                            </div>
-                        </div>
-                        <div class="lower-content">
-                            <div class="category">[<i class="fas fa-folder"></i> Smart Factory ]</div>
-                            <h3><a href="blog-details.php">Digital manufacturing week
-                                2020 – leading the way</a></h3>
-                            <ul class="post-meta">
-                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
-                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
-                            </ul>
-                            <div class="post-share-btn">
-                                <div class="social-links-wrapper">
-                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
-                                    <ul class="social-links">
-                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-                                    </ul>
-                                </div>
-                            </div>                                
-                        </div>
-                    </div>
-                </div> -->
             </div>
             <ul class="page_pagination_two center">
                 <li class="prev"><a href="#" class="tran3s"><i class="flaticon-arrow-1" aria-hidden="true"></i></a></li>
@@ -600,16 +555,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-

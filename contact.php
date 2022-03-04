@@ -282,7 +282,7 @@
                         </div>
                         <!--Contact Form-->
                         <div class="contact-form">
-                            <form method="post" action="inc/sendmail.php" id="contact-form">
+                            <form method="post" action="<?php $_SERVER['PHP_SELF'] ?>" id="contact-form">
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -319,7 +319,7 @@
                                             <textarea id="message" name="form_message" placeholder="Enter Your Massage"></textarea>
                                             <div class="form-btn">
                                                 <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                                                <button class="theme-btn btn-style-one" type="submit" data-loading-text="Please wait..."><span><i class="flaticon-up-arrow"></i>Send Now</span></button>
+                                                <button class="theme-btn btn-style-one" type="submit" name="submit" data-loading-text="Please wait..."><span><i class="flaticon-up-arrow"></i>Send Now</span></button>
                                             </div>
                                         </div>                        
                                     </div>
@@ -350,6 +350,41 @@
             </div>
         </div>
     </section>
+
+    <?php echo "<h1>10</h1>"; ?>
+
+    <?php
+    require 'vendor/autoload.php';
+
+    $API_KEY = "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";
+
+    $flag = isset($_POST['submit']);
+    echo "<h1>$flag</h1>";
+
+    if(isset($_POST['submit'])) {
+        $from = $_POST['email'];
+        $msg = $_POST['form_message'];
+
+
+        $email = new \SendGrid\Mail\Mail();
+        $email->setFrom($from, "Example User");
+        $email->setSubject("Sending with Twilio SendGrid is Fun");
+        $email->addTo("s2606231@gmail.com", "Example User");
+        $email->addContent("text/plain", $msg);
+        // $email->addContent(
+        //     "text/html", "<strong>and easy to do anywhere, even with PHP</strong>"
+        // );
+        $sendgrid = new \SendGrid($API_KEY);
+        try {
+            $response = $sendgrid->send($email);
+            print $response->statusCode() . "\n";
+            print_r($response->headers());
+            print $response->body() . "\n";
+        } catch (Exception $e) {
+            echo 'Caught exception: '. $e->getMessage() ."\n";
+        }
+    }
+    ?>
 
     <!-- Map Section -->
     <section class="map-section">

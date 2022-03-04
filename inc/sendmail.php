@@ -1,17 +1,31 @@
 <?php
-$to = "boney3326@gmail.com";
-$subject = "Query";
+require '../vendor/autoload.php';
 
-$message = $_POST["form_message"];
+$API_KEY = "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";
 
-// Always set content-type when sending HTML email
-$headers = "MIME-Version: 1.0" . "\r\n";
-$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+echo isset($_POSt['submit']);
 
-// More headers
-$from = $_POST["email"];
-$headers .= "From: $from";
-//$headers .= 'Cc: myboss@example.com' . "\r\n";
+if(isset($_POSt['submit'])) {
+    $from = $_POST['email'];
+    $msg = $_POST['form_message'];
 
-mail($to,$subject,$message,$headers);
+
+    $email = new \SendGrid\Mail\Mail();
+    $email->setFrom($from, "Example User");
+    $email->setSubject("Sending with Twilio SendGrid is Fun");
+    $email->addTo("s2606231@gmail.com", "Example User");
+    $email->addContent("text/plain", $msg);
+    $email->addContent(
+        "text/html", "<strong>and easy to do anywhere, even with PHP</strong>"
+    );
+    $sendgrid = new \SendGrid($API_KEY);
+    try {
+        $response = $sendgrid->send($email);
+        print $response->statusCode() . "\n";
+        print_r($response->headers());
+        print $response->body() . "\n";
+    } catch (Exception $e) {
+        echo 'Caught exception: '. $e->getMessage() ."\n";
+    }
+}
 ?>
