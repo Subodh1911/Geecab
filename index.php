@@ -24,6 +24,20 @@
 <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
 </head>
 
+<style>
+    @media only screen and (max-width: 600px) {
+    .main-header .header-upper .inner-container {
+        position: relative;
+        min-height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 80px;
+    }
+  }
+</style>
+
 <body class="theme-color-two">
 
 <div class="page-wrapper">
@@ -34,7 +48,7 @@
         <!-- Header Upper -->
         <div class="header-upper">
             <div class="auto-container">
-                <div class="inner-container">
+                <div class="inner-container" style="">
                     <!--Logo-->
                     <div class="logo-box">
                         <div class="logo"><a href="index.php"><img src="images/logo-v2.png" alt=""></a></div>

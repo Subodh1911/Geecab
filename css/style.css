@@ -631,6 +631,18 @@ img {
     justify-content: space-between;
 }
 
+/* @media only screen and (max-width: 600px) {
+    .main-header .header-upper .inner-container {
+        position: relative;
+        min-height: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 100px;
+    }
+  } */
+
 .main-header .header-upper .logo-box {
     z-index: 10;
 }

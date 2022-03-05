@@ -339,9 +339,9 @@
                             </div>
                         </div>
                         <div class="comments-area">
-                            <div class="group-title"><h3>Comments</h3></div>
+                            <!-- <div class="group-title"><h3>Comments</h3></div> -->
                             <!--Comment Box-->
-                            <div class="comment-box">
+                            <!-- <div class="comment-box">
                                 <div class="comment">
                                     <div class="author-thumb"><img src="images/resource/author-22.jpg" alt=""></div>
                                     <div class="comment-inner">
@@ -350,10 +350,10 @@
                                         <a class="reply-comment-btn" href="#"><i class="flaticon-reply"></i> Reply</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
     
                             <!--Comment Box-->
-                            <div class="comment-box reply-comment">
+                            <!-- <div class="comment-box reply-comment">
                                 <div class="comment">
                                     <div class="author-thumb"><img src="images/resource/author-23.jpg" alt=""></div>
                                     <div class="comment-inner">
@@ -362,9 +362,9 @@
                                         <a class="reply-comment-btn" href="#"><i class="flaticon-reply"></i> Reply</a>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
-                        <div class="comment-form">  
+                        <!-- <div class="comment-form">  
                             <div class="group-title"><h3>Send Your Comments</h3></div>
                             <div class="text">Your email address will not be published. Required fields are marked *</div>
                             <form method="post">
@@ -386,7 +386,7 @@
                                     </div>
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <aside class="col-lg-4 sidebar">
@@ -452,7 +452,7 @@
                             </div>
                         </div>
                         <!-- Tag-cloud Widget -->
-                        <div class="widget tag-cloud-widget mb-0">
+                        <!-- <div class="widget tag-cloud-widget mb-0">
                             <h4 class="widget_title">Popular Tags</h4>
                             <ul class="clearfix">
                                 <li><a href="#">Industry</a></li>
@@ -467,7 +467,7 @@
                                 <li><a href="#">Transport</a></li>
                                 <li><a href="#">Technology</a></li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                 </aside>
             </div>

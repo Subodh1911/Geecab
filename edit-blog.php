@@ -254,7 +254,7 @@
         <br>
 
         <input type="text" name="ID" maxlenght="30" placeholder="Blog ID" class="border border-dark"><br><br>
-        <input style="background : blue; font-size: 100%;" type="submit" class="button"
+        <input style="background : #8ef07a; font-size: 100%;" type="submit" class="button"
             name="showbtn" placeholder="submit">
         </form>
         <?php 
@@ -274,7 +274,7 @@
         <textarea type="text" name="news" placeholder="Detailed News" value="" class="border border-dark" cols="80" rows="15"><?php echo $row['DetailedNews'] ?></textarea><br><br>
         <input type="text" name="image" placeholder="Image Path" value="<?php echo $row['image'] ?>"class="border border-dark"><br><br>
 
-        <input style="background : blue; font-size: 100%;" type="submit" class="button"
+        <input style="background : #8ef07a; font-size: 100%;" type="submit" class="button"
             name="submit" placeholder="submit">
             </form>
         <br>
@@ -305,7 +305,7 @@
         <input type="text" name="image" placeholder="Image Path" value=""class="border border-dark"><br><br>
         <input type="text" name="author" placeholder="Posting by" value=""class="border border-dark"><br><br>
 
-        <input style="background : blue; font-size: 100%;" type="submit" class="button"
+        <input style="background : #8ef07a; font-size: 100%;" type="submit" class="button"
             name="addBtn" placeholder="submit">
         </form>
         <br>
@@ -331,7 +331,7 @@
         <h3 style="">Delete Blog</h3>
         <br>
         <input type="text" name="ID" maxlenght="30" placeholder="Blog ID" class="border border-dark"><br><br>
-        <input style="background : blue; font-size: 100%;" type="submit" class="button"
+        <input style="background : #8ef07a; font-size: 100%;" type="submit" class="button"
             name="deleteBtn" placeholder="submit">
         </form>
         <?php 
