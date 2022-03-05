@@ -234,119 +234,296 @@
             <div class="content-box">
                 <div class="content-wrapper">
                     <div class="title">
-                        <h1>Testimonials 02</h1>
+                        <h1>Blog 3 Columns</h1>
                     </div>
                     <ul class="bread-crumb style-two">
                         <li><a href="index.php">Home </a></li>
-                        <li><a href="#">Pages </a></li>
-                        <li class="active">Testimonials</li>
+                        <li class="active">Event</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials section two -->
-    <section class="testimonials-section-two style-two">
+    <!-- News Section -->
+    <section class="news-section default-style">
         <div class="auto-container">
             <div class="row">
-                <div class="col-lg-6 col-md-6 testimonial-block-two">
+                <div class="col-lg-4 news-block">
                     <div class="inner-box">
-                        <div class="rating">
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
+                        <div class="image">
+                            <img src="images/blog/image-14.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-14.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
                         </div>
-                        <div class="text">Indasto manufacturing has been a great supplier to our company. Their quick turn around is [fantastic]   and  they are very responsive.</div>
-                        <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-4.jpg" alt=""></div></div> -->
-                        <h4>Lillian Grace</h4>
-                        <div class="designation">Green Valley Intenational</div>
-                        <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Manufacturing ]</div>
+                            <h3><a href="blog-details.php">Gas shield solution developed <br> for the aerospace</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 testimonial-block-two">
+                <div class="col-lg-4 news-block">
                     <div class="inner-box">
-                        <div class="rating">
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
+                        <div class="image">
+                            <img src="images/blog/image-15.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-15.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
                         </div>
-                        <div class="text">I also was given great feedback on the quality, the  product manager was excited about how good they  looked. Thank you so very much.</div>
-                        <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-5.jpg" alt=""></div></div> -->
-                        <h4>Nathan Felix</h4>
-                        <div class="designation">Novartis Pharmaceuticals</div>
-                        <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Smart Factory ]</div>
+                            <h3><a href="blog-details.php">Digital manufacturing week
+                                2020 – leading the way</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 testimonial-block-two">
+                <div class="col-lg-4 news-block">
                     <div class="inner-box">
-                        <div class="rating">
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star-half"></span>
+                        <div class="image">
+                            <img src="images/blog/image-16.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-16.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
                         </div>
-                        <div class="text">Just wanted to say thank You  again for helping me out with the prototype sheet metal. I have to say, the parts look beautiful! thank you. </div>
-                        <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-15.jpg" alt=""></div></div> -->
-                        <h4>Roman Dexter</h4>
-                        <div class="designation">Entrepreneur</div>
-                        <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
+                            <h3><a href="blog-details.php">Building back a sustainable
+                                manufacturing sector</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 testimonial-block-two">
+                <div class="col-lg-4 news-block">
                     <div class="inner-box">
-                        <div class="rating">
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
+                        <div class="image">
+                            <img src="images/blog/image-17.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-17.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
                         </div>
-                        <div class="text">I wanted to let you know that the parts that you delivered have been accepted and passed by our QC  department. Thanks again.</div>
-                        <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-16.jpg" alt=""></div></div> -->
-                        <h4>Elias Aaron</h4>
-                        <div class="designation">California</div>
-                        <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
+                            <h3><a href="blog-details.php">Building back a sustainable
+                                manufacturing sector</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 testimonial-block-two">
+                <div class="col-lg-4 news-block">
                     <div class="inner-box">
-                        <div class="rating">
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="far fa-star"></span>
+                        <div class="image">
+                            <img src="images/blog/image-18.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-18.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
                         </div>
-                        <div class="text">Indasto, is a world renowned expert in ideation, concept development, new product development, and bringing ideas to life.</div>
-                        <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-17.jpg" alt=""></div></div> -->
-                        <h4>Gerals Ivor</h4>
-                        <div class="designation">Green Valley Intenationl</div>
-                        <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Manufacturing ]</div>
+                            <h3><a href="blog-details.php">Gas shield solution developed <br> for the aerospace</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 testimonial-block-two">
+                <div class="col-lg-4 news-block">
                     <div class="inner-box">
-                        <div class="rating">
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star"></span>
-                            <span class="fas fa-star-half"></span>
+                        <div class="image">
+                            <img src="images/blog/image-19.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-19.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
                         </div>
-                        <div class="text">Indasto is a nimble company that is able to react very quickly. They provide a high level of responsiveness. The team is simply excellent.</div>
-                        <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-18.jpg" alt=""></div></div> -->
-                        <h4>Ian Cameron</h4>
-                        <div class="designation">Los Angeles</div>
-                        <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Smart Factory ]</div>
+                            <h3><a href="blog-details.php">Digital manufacturing week
+                                2020 – leading the way</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 news-block">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/blog/image-16.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-16.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
+                        </div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
+                            <h3><a href="blog-details.php">Building back a sustainable
+                                manufacturing sector</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 news-block">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/blog/image-16.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-16.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
+                        </div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
+                            <h3><a href="blog-details.php">Building back a sustainable
+                                manufacturing sector</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 news-block">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/blog/image-16.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-16.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
+                        </div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
+                            <h3><a href="blog-details.php">Building back a sustainable
+                                manufacturing sector</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
                     </div>
                 </div>
             </div>
+            <!-- <ul class="page_pagination_two center">
+                <li class="prev"><a href="#" class="tran3s"><i class="flaticon-arrow-1" aria-hidden="true"></i></a></li>
+                <li><a href="#" class="active tran3s">1</a></li>
+                <li><a href="#" class="tran3s">2</a></li>
+                <li class="next"><a href="#" class="tran3s"><i class="flaticon-arrow-1" aria-hidden="true"></i></a></li>
+            </ul> -->
         </div>
     </section>
 

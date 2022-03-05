@@ -97,6 +97,7 @@
                                         <li><a href="blog.php">Blog</a></li>
                                         <li><a href="contact.php">Contact</a></li>
                                         <li><a href="gallery.php">Gallery</a></li>
+                                        <li><a href="event.php">Event</a></li>
                                     </ul>
                                 </div>
                             </nav>

@@ -97,6 +97,7 @@
                                         <li><a href="blog.php">Blog</a></li>
                                         <li><a href="contact.php">Contact</a></li>
                                         <li><a href="gallery.php">Gallery</a></li>
+                                        <li><a href="event.php">Event</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -307,8 +308,20 @@
 
         <input style="background : #8ef07a; font-size: 100%;" type="submit" class="button"
             name="addBtn" placeholder="submit">
+        <input style="background : #8ef07a; font-size: 100%;" type="submit" class="button"
+            name="addPre" placeholder="Preview" value="Preview">
         </form>
         <br>
+
+        <?php
+        if(isset($_POST['addPre'])) {
+            $preview = $_POST['news'];
+        ?>
+        <div>Blog body Preview</div>
+        <div><?php echo $preview ?></div>
+        <?php
+        }
+        ?>
 
         <?php
             $flag = isset($_POST['addBtn']);

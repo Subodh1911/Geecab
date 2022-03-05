@@ -97,6 +97,7 @@
                                         <li><a href="blog.php">Blog</a></li>
                                         <li><a href="contact.php">Contact</a></li>
                                         <li><a href="gallery.php">Gallery</a></li>
+                                        <li><a href="event.php">Event</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -305,19 +306,18 @@
                                     <a href="#">Chemical</a> 
                                     <a href="#">Idea</a>
                                 </div>
-                                <div class="author-box">
+                                <!-- <div class="author-box">
                                     <div class="image"><img src="images/resource/author-24.jpg" alt=""></div>
                                     <h4>Paul Anderson <span>Author</span></h4>
                                     <div class="text">Denouncing pleasure and praising pain was born and I will give you a work complete all account of the system and expound.</div>
                                     <h5><a href="#">Visit: http://my.blog.com</a></h5>
-                                </div>
+                                </div> -->
                                 <div class="share-this-post">
                                     <div class="text"><i class="fas fa-share-alt"></i>Share this post: </div>
                                     <ul class="social-links-two">
-                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="https://facebook.com"><span class="fab fa-facebook-f"></span></a></li>
                                         <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
-                                        <li><a href="#"><span class="fab fa-youtube"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-whatsapp"></span></a></li>
                                     </ul>
                                 </div>
                             </div>

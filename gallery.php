@@ -97,6 +97,7 @@
                                         <li><a href="blog.php">Blog</a></li>
                                         <li><a href="contact.php">Contact</a></li>
                                         <li><a href="gallery.php">Gallery</a></li>
+                                        <li><a href="event.php">Event</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -426,13 +427,103 @@
                         </div> -->
                     </div>
                 </div>
+                <div class="col-lg-4 news-block">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/blog/image-16.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-16.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
+                        </div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
+                            <h3><a href="blog-details.php">Building back a sustainable
+                                manufacturing sector</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 news-block">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/blog/image-16.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-16.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
+                        </div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
+                            <h3><a href="blog-details.php">Building back a sustainable
+                                manufacturing sector</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-4 news-block">
+                    <div class="inner-box">
+                        <div class="image">
+                            <img src="images/blog/image-16.jpg" alt="">
+                            <div class="overlay-two">
+                                <a href="images/blog/image-16.jpg" class="lightbox-image" data-fancybox="gallery"><span class="flaticon-zoom-in"></span></a>
+                                <a href="blog-details.php"><span class="flaticon-link"></span></a>
+                            </div>
+                        </div>
+                        <!-- <div class="lower-content">
+                            <div class="category">[<i class="fas fa-folder"></i> Innovation ]</div>
+                            <h3><a href="blog-details.php">Building back a sustainable
+                                manufacturing sector</a></h3>
+                            <ul class="post-meta">
+                                <li><a href="#"><i class="far fa-clock"></i>Oct 15, 2020</a></li>
+                                <li><a href="#"><i class="far fa-comment"></i>08 Cmts</a></li>
+                            </ul>
+                            <div class="post-share-btn">
+                                <div class="social-links-wrapper">
+                                    <div class="icon"><span class="flaticon-share"></span>Share</div>
+                                    <ul class="social-links">
+                                        <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                        <li><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>                                
+                        </div> -->
+                    </div>
+                </div>
             </div>
-            <ul class="page_pagination_two center">
+            <!-- <ul class="page_pagination_two center">
                 <li class="prev"><a href="#" class="tran3s"><i class="flaticon-arrow-1" aria-hidden="true"></i></a></li>
                 <li><a href="#" class="active tran3s">1</a></li>
                 <li><a href="#" class="tran3s">2</a></li>
                 <li class="next"><a href="#" class="tran3s"><i class="flaticon-arrow-1" aria-hidden="true"></i></a></li>
-            </ul>
+            </ul> -->
         </div>
     </section>
 

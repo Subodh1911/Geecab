@@ -97,6 +97,7 @@
                                         <li><a href="blog.php">Blog</a></li>
                                         <li><a href="contact.php">Contact</a></li>
                                         <li><a href="gallery.php">Gallery</a></li>
+                                        <li><a href="event.php">Event</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -249,13 +250,13 @@
         <div class="auto-container">
             <div class="row">
                 <div class="col-lg-4 col-md-6 service-block">
-                    <div class="inner-box">
+                    <div class="inner-box"><a href="oil.php">
                         <div class="image"><img src="images/resource/image-3.jpg" alt=""></div>
                         <div class="lower-content">
-                            <div class="icon">
+                            <!-- <div class="icon">
                                 <img src="images/icons/icon-3.png" alt="">
                                 <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
-                            </div>
+                            </div> -->
                             <h4>Construction</h4>
                             <div class="text">Explain too you how all this  mistaken idea denounce pleasure give you complete.</div>
                             <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
@@ -263,13 +264,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-block">
-                    <div class="inner-box">
-                        <div class="image"><img src="images/resource/image-4.jpg" alt=""></div>
+                    <div class="inner-box"><a href="oil.php">
+                        <div class="image"><img src="images/resource/image-100.jpg" alt=""></div>
                         <div class="lower-content">
-                            <div class="icon">
+                            <!-- <div class="icon">
                                 <img src="images/icons/icon-4.png" alt="">
                                 <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
-                            </div>
+                            </div> -->
                             <h4>Oil & Gas Energy</h4>
                             <div class="text">Indignation & dislike men who <br>  are so beguiled demoralied by the charms of pleasure.</div>
                             <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
@@ -277,13 +278,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-block">
-                    <div class="inner-box">
-                        <div class="image"><img src="images/resource/image-5.jpg" alt=""></div>
+                    <div class="inner-box"><a href="oil.php">
+                        <div class="image"><img src="images/resource/image-99.jpg" alt=""></div>
                         <div class="lower-content">
-                            <div class="icon">
+                            <!-- <div class="icon">
                                 <img src="images/icons/icon-5.png" alt="">
                                 <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
-                            </div>
+                            </div> -->
                             <h4>Power & Energy</h4>
                             <div class="text">These cases are perfectly <br> simple and easy to distinguish in <br> free when our power. </div>
                             <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
@@ -291,13 +292,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-block">
-                    <div class="inner-box">
+                    <div class="inner-box"><a href="oil.php">
                         <div class="image"><img src="images/resource/image-98.jpg" alt=""></div>
                         <div class="lower-content">
-                            <div class="icon">
+                            <!-- <div class="icon">
                                 <img src="images/icons/icon-29.png" alt="">
                                 <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
-                            </div>
+                            </div> -->
                             <h4>Pharma Research</h4>
                             <div class="text">Explain too you how all this  mistaken idea denounce pleasure give you complete.</div>
                             <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
@@ -305,13 +306,13 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-block">
-                    <div class="inner-box">
+                    <div class="inner-box"><a href="oil.php">
                         <div class="image"><img src="images/resource/image-99.jpg" alt=""></div>
                         <div class="lower-content">
-                            <div class="icon">
+                            <!-- <div class="icon">
                                 <img src="images/icons/icon-30.png" alt="">
                                 <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
-                            </div>
+                            </div> -->
                             <h4>Metal Engineering</h4>
                             <div class="text">Explain too you how all this <br>
                                 mistaken idea denounce pleasure <br>
@@ -321,17 +322,65 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 service-block">
-                    <div class="inner-box">
+                    <div class="inner-box"><a href="oil.php">
                         <div class="image"><img src="images/resource/image-100.jpg" alt=""></div>
                         <div class="lower-content">
-                            <div class="icon">
+                            <!-- <div class="icon">
                                 <img src="images/icons/icon-31.png" alt="">
                                 <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
-                            </div>
+                            </div> -->
                             <h4>Automotive Chains</h4>
                             <div class="text">Indignation & dislike men who <br>
                                 are so beguiled demoralied by the <br>
                                 charms of pleasure. </div>
+                            <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 service-block">
+                    <div class="inner-box"><a href="oil.php">
+                        <div class="image"><img src="images/resource/image-99.jpg" alt=""></div>
+                        <div class="lower-content">
+                            <!-- <div class="icon">
+                                <img src="images/icons/icon-30.png" alt="">
+                                <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
+                            </div> -->
+                            <h4>Metal Engineering</h4>
+                            <div class="text">Explain too you how all this <br>
+                                mistaken idea denounce pleasure <br>
+                                give you complete.</div>
+                            <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 service-block">
+                    <div class="inner-box"><a href="oil.php">
+                        <div class="image"><img src="images/resource/image-99.jpg" alt=""></div>
+                        <div class="lower-content">
+                            <!-- <div class="icon">
+                                <img src="images/icons/icon-30.png" alt="">
+                                <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
+                            </div> -->
+                            <h4>Metal Engineering</h4>
+                            <div class="text">Explain too you how all this <br>
+                                mistaken idea denounce pleasure <br>
+                                give you complete.</div>
+                            <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 service-block">
+                    <div class="inner-box"><a href="oil.php">
+                        <div class="image"><img src="images/resource/image-99.jpg" alt=""></div>
+                        <div class="lower-content">
+                            <!-- <div class="icon">
+                                <img src="images/icons/icon-30.png" alt="">
+                                <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
+                            </div> -->
+                            <h4>Metal Engineering</h4>
+                            <div class="text"><a href="oil.php">Explain too you how all this <br>
+                                mistaken idea denounce pleasure <br>
+                                give you complete.</div>
                             <div class="link"><a href="oil.php" class="link-btn"><i class="flaticon-right-arrow"></i> </a></div>
                         </div>
                     </div>

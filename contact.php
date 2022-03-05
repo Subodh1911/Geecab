@@ -97,6 +97,7 @@
                                         <li><a href="blog.php">Blog</a></li>
                                         <li><a href="contact.php">Contact</a></li>
                                         <li><a href="gallery.php">Gallery</a></li>
+                                        <li><a href="event.php">Event</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -351,7 +352,6 @@
         </div>
     </section>
 
-    <?php echo "<h1>10</h1>"; ?>
 
     <?php
     require 'vendor/autoload.php';
@@ -359,7 +359,7 @@
     $API_KEY = "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";
 
     $flag = isset($_POST['submit']);
-    echo "<h1>$flag</h1>";
+    // echo "<h1>$flag</h1>";
 
     if(isset($_POST['submit'])) {
         $from = $_POST['email'];
@@ -394,7 +394,7 @@
     </section>
 
     <!-- Contact info section two -->
-    <section class="contact-info-section-two">
+    <!-- <section class="contact-info-section-two">
         <div class="auto-container">
             <div class="wrapper-box">
                 <div class="sec-title text-center">
@@ -576,7 +576,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- CTA section -->
     <section class="cta-section">

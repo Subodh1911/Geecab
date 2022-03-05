@@ -33,7 +33,7 @@
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
-        margin-left: 80px;
+        margin-left: 100px;
     }
   }
 </style>
@@ -108,6 +108,7 @@
                                     <li><a href="blog.php">Blog</a></li>
                                     <li><a href="contact.php">Contact</a></li>
                                     <li><a href="gallery.php">Gallery</a></li>
+                                    <li><a href="event.php">Event</a></li>
                                 </ul>
                             </div>
                         </nav>
@@ -296,8 +297,8 @@
                 <div class="col-lg-6">
                     <div class="sec-title mb-30">
                         <div class="sub-title">About Company</div>
-                        <h2>Leading Industrial Solution <br> Provider <span>Since 1988</span></h2>
-                        <div class="text">It is a long established fact that a readers will be distracted by readable  content tof a page when looking at its layout. The point of using is that it has a more-or-less normal distribution.</div>
+                        <h2>Ruling the market and customer satisfaction <br> Provider <span>Since 1988</span></h2>
+                        <div class="text">Establishing a brand name in the market and ensuring top-notch services are provided to their customers is challenging, and we have worked harder not for an accessible route. We have successfully served our customers over the decade and continue to be the best service provider.</div>
                     </div>
                     <div class="icon-box">
                         <div class="icon"><i class="flaticon-low-price"></i></div>
@@ -346,24 +347,63 @@
                     <div class="sub-title">Services
                     </div>
                     <h2>Services We Offered</h2>
-                    <div class="text">We have facility to produce advance work various industrial applications based on <br> specially developed technology.</div>
+                    <div class="text">Let us know your requirements, and we will cater for the best products as per your requirements. </div>
                 </div>
                 <div class="row">
                     <div class="theme_carousel owl-theme owl-carousel" data-options='{"loop": true, "center": false, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 1000, "responsive":{ "0" :{ "items": "1" }, "480" :{ "items" : "1" }, "768" :{ "items" : "2" } , "992":{ "items" : "3" }, "1200":{ "items" : "3" }}}'>
                         <div class="col-lg-12 service-block-two">
                             <div class="inner-box">
-                                <div class="icon">
+                                <!-- <div class="icon">
                                     <i class="flaticon-machinery"></i>
                                     <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
-                                </div>
+                                </div> -->
                                 <div class="image"><img src="images/resource/image-36.jpg" alt=""></div>
                                 <div class="lower-content">                            
-                                    <h5>Centerless</h5>
-                                    <h4>Grinding & Polishing</h4>
+                                    <h5>Cables</h5>
+                                    <!-- <h4>Grinding & Polishing</h4> -->
                                 </div>
                             </div>
                         </div>
                         <div class="col-lg-12 service-block-two">
+                            <div class="inner-box">
+                                <!-- <div class="icon">
+                                    <i class="flaticon-laser"></i>
+                                    <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
+                                </div> -->
+                                <div class="image"><img src="images/resource/image-37.jpg" alt=""></div>
+                                <div class="lower-content">      
+                                    <h5>Extension Cords</h5>                      
+                                    <!-- <h4>Laser & Plasma</h4> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 service-block-two">
+                            <div class="inner-box">
+                                <!-- <div class="icon">
+                                    <i class="flaticon-welder"></i>
+                                    <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
+                                </div> -->
+                                <div class="image"><img src="images/resource/image-38.jpg" alt=""></div>
+                                <div class="lower-content">       
+                                    <h5>Insulation Tapes</h5>                     
+                                    <!-- <h4>Metal & Tungsten</h4> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12 service-block-two">
+                            <div class="inner-box">
+                                <!-- <div class="icon">
+                                    <i class="flaticon-machinery"></i>
+                                    <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
+                                </div> -->
+                                <div class="image"><img src="images/resource/image-36.jpg" alt=""></div>
+                                <div class="lower-content">                            
+                                    <h5>Electric Meters</h5>
+                                    <!-- <h4>Grinding & Polishing</h4> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-lg-12 service-block-two">
                             <div class="inner-box">
                                 <div class="icon">
                                     <i class="flaticon-laser"></i>
@@ -375,8 +415,8 @@
                                     <h4>Laser & Plasma</h4>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-12 service-block-two">
+                        </div> -->
+                        <!-- <div class="col-lg-12 service-block-two">
                             <div class="inner-box">
                                 <div class="icon">
                                     <i class="flaticon-welder"></i>
@@ -388,8 +428,8 @@
                                     <h4>Metal & Tungsten</h4>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-12 service-block-two">
+                        </div> -->
+                        <!-- <div class="col-lg-12 service-block-two">
                             <div class="inner-box">
                                 <div class="icon">
                                     <i class="flaticon-machinery"></i>
@@ -401,8 +441,8 @@
                                     <h4>Grinding & Polishing</h4>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-12 service-block-two">
+                        </div> -->
+                        <!-- <div class="col-lg-12 service-block-two">
                             <div class="inner-box">
                                 <div class="icon">
                                     <i class="flaticon-laser"></i>
@@ -414,8 +454,8 @@
                                     <h4>Laser & Plasma</h4>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-12 service-block-two">
+                        </div> -->
+                        <!-- <div class="col-lg-12 service-block-two">
                             <div class="inner-box">
                                 <div class="icon">
                                     <i class="flaticon-welder"></i>
@@ -427,46 +467,7 @@
                                     <h4>Metal & Tungsten</h4>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-12 service-block-two">
-                            <div class="inner-box">
-                                <div class="icon">
-                                    <i class="flaticon-machinery"></i>
-                                    <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
-                                </div>
-                                <div class="image"><img src="images/resource/image-36.jpg" alt=""></div>
-                                <div class="lower-content">                            
-                                    <h5>Centerless</h5>
-                                    <h4>Grinding & Polishing</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 service-block-two">
-                            <div class="inner-box">
-                                <div class="icon">
-                                    <i class="flaticon-laser"></i>
-                                    <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
-                                </div>
-                                <div class="image"><img src="images/resource/image-37.jpg" alt=""></div>
-                                <div class="lower-content">      
-                                    <h5>Cutting</h5>                      
-                                    <h4>Laser & Plasma</h4>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12 service-block-two">
-                            <div class="inner-box">
-                                <div class="icon">
-                                    <i class="flaticon-welder"></i>
-                                    <div class="shape"><img src="images/shape/shape-6.png" alt=""></div>
-                                </div>
-                                <div class="image"><img src="images/resource/image-38.jpg" alt=""></div>
-                                <div class="lower-content">       
-                                    <h5>Welding</h5>                     
-                                    <h4>Metal & Tungsten</h4>
-                                </div>
-                            </div>
-                        </div>
+                        </div> -->
                     </div>
                     
                 </div>
@@ -597,64 +598,60 @@
             <div class="row m-0 top-content justify-content-between align-items-center">
                 <div class="sec-title light">
                     <div class="sub-title">Highlights</div>
-                    <h2>Reason for Choosing Us</h2>
+                    <h2>Why Choose US?</h2>
                 </div>
-                <div class="text">We have facility to produce advance work various industrial applications <br> based on specially developed technology.</div>
+                <div class="text">Some founding principles of our company are faith, loyalty, <br> best services and reliable support and we keep extending <br> their services to more and more customers. </div>
             </div>
             <div class="wrapper-box">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 why-choose-us-block">
                         <div class="inner-box">
                             <div class="icon"><i class="flaticon-clock-4"></i></div>
-                            <h4>On Time Delivery</h4>
-                            <div class="text">Indignation dislike beguiled demoralized by the charms of pleasure blinded.</div>
+                            <h4>Durable Products</h4>
+                            <div class="text">We believe in catering the products which serve for a longer duration of time and for the same we use the best quality products</div>
                             <div class="link"><a href="#" class="link-btn">Read More <i class="flaticon-right-arrow-3"></i></a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 why-choose-us-block">
                         <div class="inner-box">
                             <div class="icon"><i class="flaticon-robot-arm-1"></i></div>
-                            <h4>Smart Technology</h4>
-                            <div class="text">Foresee the pain & trouble
-                                that are bound ensue equal
-                                blame their duty.</div>
+                            <h4>Affordable</h4>
+                            <div class="text">Compared to our competitors, we provide the most affordable products with the best quality, and we look forward to maintaining the consistency of quality and pricing.</div>
                             <div class="link"><a href="#" class="link-btn">Read More <i class="flaticon-right-arrow-3"></i></a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 why-choose-us-block">
                         <div class="inner-box">
                             <div class="icon"><i class="flaticon-winner-1"></i></div>
-                            <h4>Easy & Affordable</h4>
-                            <div class="text">These cases are perfectly simple easy too distinguish  free hour prevents.</div>
+                            <h4>Advanced Tech</h4>
+                            <div class="text">The best way to advance globally is by moving on with advanced tech, ensuring that we are aware of the latest advancements and integrating them into our products for better results.</div>
                             <div class="link"><a href="#" class="link-btn">Read More <i class="flaticon-right-arrow-3"></i></a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 why-choose-us-block">
                         <div class="inner-box">
                             <div class="icon"><i class="flaticon-engineer-1"></i></div>
-                            <h4>Qualified Specialists</h4>
-                            <div class="text">Foresee the pain & trouble
-                                that are bound ensue equal
-                                blame their duty.</div>
+                            <h4>Innovative Research and Development team</h4>
+                            <div class="text">The research and development team is the core of our company as they make sure that they can meet the customer requirements and develop the product that provides the most efficient results.</div>
                             <div class="link"><a href="#" class="link-btn">Read More <i class="flaticon-right-arrow-3"></i></a></div>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 why-choose-us-block">
                         <div class="inner-box">
                             <div class="icon"><i class="flaticon-global-warming"></i></div>
-                            <h4>Clean & Unpolluted</h4>
-                            <div class="text">These cases are perfectly simple easy too distinguish  free hour prevents.</div>
+                            <h4>Customer Support</h4>
+                            <div class="text">Customer is the foundation of any successful business, so we listen to our clients with 24X7 customer support and keep them updated on their product deliveries.</div>
                             <div class="link"><a href="#" class="link-btn">Read More <i class="flaticon-right-arrow-3"></i></a></div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 why-choose-us-block">
+                    <!-- <div class="col-lg-4 col-md-6 why-choose-us-block">
                         <div class="inner-box">
                             <div class="icon"><i class="flaticon-support"></i></div>
                             <h4>24/7  Support</h4>
                             <div class="text">Indignation dislike beguiled demoralized by the charms of pleasure blinded.</div>
                             <div class="link"><a href="#" class="link-btn">Read More <i class="flaticon-right-arrow-3"></i></a></div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             
@@ -662,7 +659,7 @@
     </section>
 
     <!-- Team Section two -->
-    <section class="team-section-two pb-0">
+    <!-- <section class="team-section-two pb-0">
         <div class="auto-container">
             <div class="sec-title text-center">
                 <div class="sub-title">Behind Our Success</div>
@@ -827,7 +824,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- Projects Section Two -->
     <section class="projects-section-two">
@@ -838,7 +835,7 @@
                     <div class="sub-title">Our Works</div>
                     <h2>Recently Completed Works</h2>
                 </div>
-                <div class="text">We have facility to produce advance work various industrial applications <br> based on specially developed technology.</div>
+                <div class="text">We have provided various clients with satisfaction with the product they asked for, and we continue to serve more and more customers.</div>
             </div>
             <!--Filter-->
             <div class="filters">
@@ -1000,8 +997,8 @@
                                 <span class="fas fa-star"></span>
                                 <span class="fas fa-star"></span>
                             </div>
-                            <div class="text">Indasto manufacturing has been a great supplier to our company. Their quick turn around is [fantastic]   and  they are very responsive.</div>
-                            <div class="image"><div class="image-wrapper"><img src="images/resource/author-4.jpg" alt=""></div></div>
+                            <div class="text">This company believes in trust in their customers; it was the first time we ordered our products from them. The quality was exceptionally outstanding, and they updated us on each development phase.</div>
+                            <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-4.jpg" alt=""></div></div> -->
                             <h4>Lillian Grace</h4>
                             <div class="designation">Green Valley Intenational</div>
                             <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
@@ -1016,8 +1013,40 @@
                                 <span class="fas fa-star"></span>
                                 <span class="fas fa-star"></span>
                             </div>
-                            <div class="text">I also was given great feedback on the quality, the  product manager was excited about how good they  looked. Thank you so very much.</div>
-                            <div class="image"><div class="image-wrapper"><img src="images/resource/author-5.jpg" alt=""></div></div>
+                            <div class="text">Gee Cab has been my top priority for over the years, and now it looks like I do not need to even look for any other company as they consistently serve the best products and support.</div>
+                            <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-5.jpg" alt=""></div></div> -->
+                            <h4>Nathan Felix</h4>
+                            <div class="designation">Novartis Pharmaceuticals</div>
+                            <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
+                        </div>
+                    </div>
+                    <!-- <div class="col-lg-12 testimonial-block-two">
+                        <div class="inner-box">
+                            <div class="rating">
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                            </div>
+                            <div class="text">Indasto manufacturing has been a great supplier to our company. Their quick turn around is [fantastic]   and  they are very responsive.</div> -->
+                            <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-4.jpg" alt=""></div></div> -->
+                            <!-- <h4>Lillian Grace</h4>
+                            <div class="designation">Green Valley Intenational</div>
+                            <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
+                        </div>
+                    </div> -->
+                    <div class="col-lg-12 testimonial-block-two">
+                        <div class="inner-box">
+                            <div class="rating">
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                                <span class="fas fa-star"></span>
+                            </div>
+                            <div class="text">We faced some issues in the delivery, and Gee Can team lead contacted us directly and let us know about the situation; they are very cooperative and professional staff.</div>
+                            <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-5.jpg" alt=""></div></div> -->
                             <h4>Nathan Felix</h4>
                             <div class="designation">Novartis Pharmaceuticals</div>
                             <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
@@ -1032,14 +1061,14 @@
                                 <span class="fas fa-star"></span>
                                 <span class="fas fa-star"></span>
                             </div>
-                            <div class="text">Indasto manufacturing has been a great supplier to our company. Their quick turn around is [fantastic]   and  they are very responsive.</div>
-                            <div class="image"><div class="image-wrapper"><img src="images/resource/author-4.jpg" alt=""></div></div>
+                            <div class="text">I loved the team, we were in an emergency and required some changes just a week before delivery, and they listened to our requirements and made the shipment within the deadline.</div>
+                            <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-4.jpg" alt=""></div></div> -->
                             <h4>Lillian Grace</h4>
                             <div class="designation">Green Valley Intenational</div>
                             <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
                         </div>
                     </div>
-                    <div class="col-lg-12 testimonial-block-two">
+                    <!-- <div class="col-lg-12 testimonial-block-two">
                         <div class="inner-box">
                             <div class="rating">
                                 <span class="fas fa-star"></span>
@@ -1048,14 +1077,14 @@
                                 <span class="fas fa-star"></span>
                                 <span class="fas fa-star"></span>
                             </div>
-                            <div class="text">I also was given great feedback on the quality, the  product manager was excited about how good they  looked. Thank you so very much.</div>
-                            <div class="image"><div class="image-wrapper"><img src="images/resource/author-5.jpg" alt=""></div></div>
-                            <h4>Nathan Felix</h4>
+                            <div class="text">I also was given great feedback on the quality, the  product manager was excited about how good they  looked. Thank you so very much.</div> -->
+                            <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-5.jpg" alt=""></div></div> -->
+                            <!-- <h4>Nathan Felix</h4>
                             <div class="designation">Novartis Pharmaceuticals</div>
                             <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
                         </div>
-                    </div>
-                    <div class="col-lg-12 testimonial-block-two">
+                    </div> -->
+                    <!-- <div class="col-lg-12 testimonial-block-two">
                         <div class="inner-box">
                             <div class="rating">
                                 <span class="fas fa-star"></span>
@@ -1064,14 +1093,14 @@
                                 <span class="fas fa-star"></span>
                                 <span class="fas fa-star"></span>
                             </div>
-                            <div class="text">Indasto manufacturing has been a great supplier to our company. Their quick turn around is [fantastic]   and  they are very responsive.</div>
-                            <div class="image"><div class="image-wrapper"><img src="images/resource/author-4.jpg" alt=""></div></div>
-                            <h4>Lillian Grace</h4>
+                            <div class="text">Indasto manufacturing has been a great supplier to our company. Their quick turn around is [fantastic]   and  they are very responsive.</div> -->
+                            <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-4.jpg" alt=""></div></div> -->
+                            <!-- <h4>Lillian Grace</h4>
                             <div class="designation">Green Valley Intenational</div>
                             <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
                         </div>
-                    </div>
-                    <div class="col-lg-12 testimonial-block-two">
+                    </div> -->
+                    <!-- <div class="col-lg-12 testimonial-block-two">
                         <div class="inner-box">
                             <div class="rating">
                                 <span class="fas fa-star"></span>
@@ -1080,45 +1109,13 @@
                                 <span class="fas fa-star"></span>
                                 <span class="fas fa-star"></span>
                             </div>
-                            <div class="text">I also was given great feedback on the quality, the  product manager was excited about how good they  looked. Thank you so very much.</div>
-                            <div class="image"><div class="image-wrapper"><img src="images/resource/author-5.jpg" alt=""></div></div>
-                            <h4>Nathan Felix</h4>
+                            <div class="text">I also was given great feedback on the quality, the  product manager was excited about how good they  looked. Thank you so very much.</div> -->
+                            <!-- <div class="image"><div class="image-wrapper"><img src="images/resource/author-5.jpg" alt=""></div></div> -->
+                            <!-- <h4>Nathan Felix</h4>
                             <div class="designation">Novartis Pharmaceuticals</div>
                             <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
                         </div>
-                    </div>
-                    <div class="col-lg-12 testimonial-block-two">
-                        <div class="inner-box">
-                            <div class="rating">
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                            </div>
-                            <div class="text">Indasto manufacturing has been a great supplier to our company. Their quick turn around is [fantastic]   and  they are very responsive.</div>
-                            <div class="image"><div class="image-wrapper"><img src="images/resource/author-4.jpg" alt=""></div></div>
-                            <h4>Lillian Grace</h4>
-                            <div class="designation">Green Valley Intenational</div>
-                            <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-12 testimonial-block-two">
-                        <div class="inner-box">
-                            <div class="rating">
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                                <span class="fas fa-star"></span>
-                            </div>
-                            <div class="text">I also was given great feedback on the quality, the  product manager was excited about how good they  looked. Thank you so very much.</div>
-                            <div class="image"><div class="image-wrapper"><img src="images/resource/author-5.jpg" alt=""></div></div>
-                            <h4>Nathan Felix</h4>
-                            <div class="designation">Novartis Pharmaceuticals</div>
-                            <div class="border-shape"><div class="quote-icon"><span class="flaticon-right-quote-1"></span></div></div>
-                        </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
